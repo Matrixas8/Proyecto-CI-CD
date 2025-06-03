@@ -1,0 +1,15 @@
+{
+    "name": "ciudades",
+    "version": "1.0.0",
+    "description": "",
+    "main": "ciudad.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "Matias Machado",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
