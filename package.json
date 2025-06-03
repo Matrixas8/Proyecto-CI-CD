@@ -4,7 +4,8 @@
     "description": "",
     "main": "ciudad.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "eslint": "eslint .js"
     },
     "keywords": [],
     "author": "Matias Machado",
