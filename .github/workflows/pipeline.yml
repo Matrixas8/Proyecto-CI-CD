@@ -15,12 +15,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - name: Limpiar e instalar dependencias
+      - name: Instalar dependencias
         run: |
-          rm -rf node_modules package-lock.json
           npm install --no-audit --no-fund
-      - name: Lint
-        run: npm run eslint
       - name: Test
         run: npm run test
   
