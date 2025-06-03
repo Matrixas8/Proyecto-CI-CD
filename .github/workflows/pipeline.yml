@@ -18,6 +18,8 @@ jobs:
       - name: Instalar dependencias
         run: |
           npm install --no-audit --no-fund
+      - name: Fix permisos de Jest
+        run: chmod +x ./node_modules/.bin/jest
       - name: Test
         run: npm run test
   
