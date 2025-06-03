@@ -1,0 +1,17 @@
+name: Say hello # nombre del workflow
+
+on:
+  push: # evento que dispara el workflow
+    branches: # rama en la que se ejecuta el workflow
+      - main
+
+jobs:
+  hello_world: # nombre del job
+    runs-on: ubuntu-latest 
+    steps:
+      - name: Echo the message # nombre del paso
+        # comando que se ejecuta
+        run: |
+          echo "Hola Mati"
+      - name: Decime la fecha
+        run: date
