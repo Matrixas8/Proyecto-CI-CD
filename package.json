@@ -4,14 +4,12 @@
     "description": "",
     "main": "ciudad.js",
     "scripts": {
-        "test": "jest",
-        "eslint": "eslint ."
+        "test": "jest"
     },
     "keywords": [],
     "author": "Matias Machado",
     "license": "ISC",
     "devDependencies": {
-        "eslint": "^9.28.0",
         "jest": "^29.7.0"
     }
 }
